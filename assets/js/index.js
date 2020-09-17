@@ -1,6 +1,5 @@
 const [form] = document.getElementsByTagName('form');
 const inputPassword = document.getElementById('password');
-const submitButton = document.getElementById('submitBtn');
 
 const regExpPassword = /(?=)[\w%^&*#@]{8,40}/;
 form.addEventListener('submit', buttonHandler);
